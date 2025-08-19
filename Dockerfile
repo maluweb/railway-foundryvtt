@@ -1,6 +1,5 @@
 FROM felddy/foundryvtt:13
 
-# Force the container to run as the root user to match Railway's volume ownership.
 USER root
 
 ARG FOUNDRY_PASSWORD
